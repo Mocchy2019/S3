@@ -110,6 +110,7 @@ body.no-scroll {
   color: inherit;
   text-decoration: none;
   height: max-content;
+  width: max-content;
 }
 .linkcover:active {
   color: inherit;

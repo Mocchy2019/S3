@@ -56,11 +56,18 @@
 
 .detail__contact {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
   max-width: 320px;
+  height: 100px;
   margin: 0 auto 45px;
+  background-color: var(--event-color);
+  border-radius: var(--roundness-general);
 }
-i {
-  color: var(--theme-color);
-  font-size: 70px;
-  margin: 0 3px;
+.detail__logo {
+  grid-area: d-logo;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
 }

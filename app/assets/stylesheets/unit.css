@@ -457,7 +457,7 @@
 
 .detail__wrapper{
   display: grid;
-  grid-template-rows: 10px auto 10px;
+  grid-template-rows: 15px auto 15px;
   grid-template-columns: auto 1fr auto;
   grid-template-areas: 
   ". d-scroll ."
@@ -546,6 +546,7 @@
   justify-self: end;
   font-size: 13px;
   color: #ed3d57;
+  margin: 10px 0 0 0;
 }
 
 .detail__subtitle {

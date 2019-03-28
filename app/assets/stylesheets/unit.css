@@ -294,7 +294,6 @@
   width: 100vw;
   height: var(--open-visual-height);
   color: var(--white);
-  font-size: 1rem;
 }
 .open-visual__title{
   grid-area: ov-title;
@@ -304,11 +303,13 @@
   background-color: red;
   width: max-content;
   padding: 2px 5px;
+  margin: 5px 5px 0 5px;
 }
 .open-visual__text {
   grid-area: ov-text;
   align-self: start;
-  margin: 0;
+  margin: 0 5px 5px 5px;
+  font-size: 1.5rem;
 }
 .cover{
   display: block;

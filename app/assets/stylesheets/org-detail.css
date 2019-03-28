@@ -54,6 +54,17 @@
   height: 120px;
 }
 
+.detail__temp-wrapper{
+  display: flex;
+  align-items: center;
+
+}
+.detail__temp{
+  max-width: 320px;
+  border-radius: var(--roundness-general);
+  margin: 30px auto;
+}
+
 .detail__contact {
   display: flex;
   justify-content: center;

@@ -26,14 +26,14 @@
 
 .event-detail__about {
   display: grid;
-  grid-template-rows: auto auto 30px;
+  grid-template-rows: auto auto auto;
   grid-template-columns: 1fr auto 1fr;
   grid-template-areas:
     ". ed-title ."
     "ed-desc ed-desc ed-desc"
     ". ed-more ed-more";
   width: 300px;
-  margin: 45px auto;
+  margin: 45px auto 0;
 }
 .event-detail__title {
   grid-area: ed-title;

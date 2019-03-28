@@ -333,22 +333,23 @@
 
 .sns__wrapper{
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto auto auto;
   align-items: center;
   max-width: 320;
   height: 100px;
-  background-color: var(--event-color);
+  background-color: var(--theme-color);
   border-radius: var(--roundness-general);
   margin: 45px auto 15px;
 }
 .sns__logo{
   width: 70px;
-  margin: 0 10px;
+  margin: 0 10px 0 0;
 }
 .sns__desc{
   color: var(--white);
   font-size: 15px;
   justify-self: center;
+  margin: 5px 5px 5px 10px;
 }
 .sns__text{
   font-weight: bold;
@@ -481,7 +482,7 @@
 
 .detail__wrapper{
   display: grid;
-  grid-template-rows: 15px auto 15px;
+  grid-template-rows: 17.5px auto 17.5px;
   grid-template-columns: auto 1fr auto;
   grid-template-areas: 
   ". d-scroll ."
@@ -570,7 +571,7 @@
   justify-self: end;
   font-size: 13px;
   color: #ed3d57;
-  margin: 10px 0 0 0;
+  margin: 10px 0 30px 0;
 }
 
 .detail__subtitle {

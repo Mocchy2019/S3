@@ -331,6 +331,29 @@
   height: var(--open-visual-height);
 }
 
+.sns__wrapper{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  max-width: 320;
+  height: 100px;
+  background-color: var(--event-color);
+  border-radius: var(--roundness-general);
+  margin: 45px auto 15px;
+}
+.sns__logo{
+  width: 70px;
+  margin: 0 10px;
+}
+.sns__desc{
+  color: var(--white);
+  font-size: 15px;
+  justify-self: center;
+}
+.sns__text{
+  font-weight: bold;
+}
+
 .x-scroll{
 	display: grid;
   grid-auto-flow: column;

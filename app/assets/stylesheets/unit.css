@@ -605,24 +605,28 @@
 /* II. タブレット, i. 複数のページで使うunit */
 @media screen and (min-width: 768px) {
   /* II. タブレット, ii. ホームページ */
+  
   .open-visual {
     width: 100%;
-    height: 600px;
+    height: 40vh;
     margin: 0 0 50px 0;
   }
 
   .open-visual__textbox {
-    font-size: 2rem;
-    height: 600px;
+    grid-template-columns: 0.2fr 3fr 1fr;
+    height: 40vh;
+  }
+  .open-visual__text{
+    font-size: 2.3rem;
   }
   .cover{
-    height: 600px;
+    height: 40vh;
   }
   .empty-box{
     display: block;
     position: relative;
     width: 80vw;
-    height: calc(var(--header-height) + 600px);
+    height: calc(var(--header-height) + 40vh);
   }
 
   .x-scroll {

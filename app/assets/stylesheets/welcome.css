@@ -87,11 +87,27 @@ span {
   max-width: 140px;
   height: 247px;
   margin: 0 5px;
+}
 
+.sns__logo{
+  margin: 10px 15px;
 }
 
 .see-genre {
   background-color: var(--white);
   color: var(--theme-color);
   font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 768px){
+  .title-wrapper{
+    margin: 70px auto 45px;
+    max-width: 500px;
+    font-size: 30px;
+  }
+  .x-scroll__welcome{
+    max-width: 1000px;
+    margin: 45px auto 45px;
 }

@@ -364,13 +364,21 @@
 }
 .sns__desc{
   color: var(--white);
-  font-size: 15px;
+  font-size: 12px;
   justify-self: center;
   margin: 5px 5px 5px 10px;
 }
 .sns__text{
   font-weight: bold;
+  font-size: 16px;
 }
+@media screen and (min-width: 321px){
+  .sns__text{
+    display: inline-block;
+    margin-bottom: 7px;
+  }
+}
+
 
 .x-scroll{
 	display: grid;
@@ -587,6 +595,7 @@
   grid-area: ed-more;
   justify-self: end;
   font-size: 13px;
+  height: 14px;
   color: #ed3d57;
   margin: 10px 0 30px 0;
 }

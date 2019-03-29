@@ -53,6 +53,21 @@ span {
   border-radius: var(--roundness-general);
 }
 
+@media screen and (max-width: 321px){
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  .unit{
+    min-width: 260px;
+    max-width: 290px;
+  }
+  .photo{
+    width: 100px;
+    max-height: 177px;
+  }
+}
+
+
 .subtitle {
   text-align: center;
 }

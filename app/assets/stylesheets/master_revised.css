@@ -223,8 +223,8 @@ footer {
   left: 0;
   background-color: var(--theme-color);
   width: 100vw;
-  height: var(--header-height);
-  margin-top: 3rem;
+  height: 2.5rem;
+  margin-top: 5rem;
 }
 
 .footer__logo {

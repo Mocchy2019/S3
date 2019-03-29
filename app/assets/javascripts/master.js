@@ -1,15 +1,19 @@
-// const topBarBurger = document.querySelector(".header__burger");
-// const topBar = document.querySelector(".header");
-// const topBarOpen = "header--open";
-// const noScroll = "no-scroll";
-// let topBarVisible = false;
-// topBarBurger.onclick = () => {
-//   if (topBarVisible) {
-//     document.documentElement.classList.remove(noScroll);
-//     topBar.classList.remove(topBarOpen);
-//   } else {
-//     document.documentElement.classList.add(noScroll);
-//     topBar.classList.add(topBarOpen);
-//   }
-//   topBarVisible = !topBarVisible;
-// };
+var pickUp = document.getElementById("pickup");
+var org = document.getElementById("org");
+var event = document.getElementById("event");
+var freepaper = document.getElementById("freepaper");
+
+
+
+function scrollToTopPickup() {
+  pickUp.scrollIntoView(true);
+}
+function scrollToTopOrg() {
+  org.scrollIntoView(true);
+}
+function scrollToTopEvent() {
+  event.scrollIntoView(true);
+}
+function scrollToTopFreepaper() {
+  freepaper.scrollIntoView(true);
+}

@@ -75,10 +75,10 @@
 
 .sub-title {
   display: block;
-  margin-top: 45px;
+  height: 90px;
 }
 .sub-title__text {
-  padding: 0 0 5px 0;
+  padding: 65px 0 5px 0;
   margin: 0;
   font-size: 25px;
 }
@@ -244,7 +244,7 @@
   height: 40px;
   border-radius: var(--roundness-general);
   box-shadow: var(--dropshadow-general);
-  margin: 0.5rem auto 3rem auto;
+  margin: 0.5rem auto 0 auto;
   padding: 0;
 	background-color: var(--theme-color);
 	color: var(--white);
@@ -255,6 +255,23 @@
 }
 
 /* I. スマホ, ii. ホームページ */
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: fixed;
+  top: 2.5rem;
+  left: 0;
+  width: 100vw;
+  height: 25px;
+  margin: 0;
+  justify-items: center;
+  align-items: center;
+  z-index: 100;
+  background-color: var(--event-color);
+  color: var(--white);
+  font-size: 11px;
+}
+
 .open-visual {
   position: absolute;
   top: var( --header-height);
@@ -339,7 +356,7 @@
   height: 100px;
   background-color: var(--theme-color);
   border-radius: var(--roundness-general);
-  margin: 45px auto 15px;
+  margin: 45px auto -20px;
 }
 .sns__logo{
   width: 70px;

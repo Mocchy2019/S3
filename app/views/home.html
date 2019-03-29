@@ -41,6 +41,17 @@
           <div><a href="#">雑誌</a></div>
         </nav> -->
     </div>
+    <!-- menuはこちら-->
+    <div class="menu">
+      <div onclick="scrollToTopPickup()" class="menu__content">
+        ピックアップ
+      </div>
+      <div onclick="scrollToTopOrg()" class="menu__content">学生団体</div>
+      <div onclick="scrollToTopEvent()" class="menu__content">イベント</div>
+      <div onclick="scrollToTopFreepaper()" class="menu__content">
+        フリーペーパー
+      </div>
+    </div>
 
     <main>
       <!--スマホ　ホームページ-->
@@ -105,7 +116,7 @@
       </div>
 
       <!-- sub-titleはこちら -->
-      <div class="sub-title">
+      <div id="pickup" class="sub-title">
         <h3 class="sub-title__text">ピックアップ団体</h3>
       </div>
 
@@ -165,8 +176,8 @@
       </section>
 
       <!-- sub-titleはこちら -->
-      <div class="sub-title">
-        <h3 class="sub-title__text">ピックアップevents</h3>
+      <div id="pickup" class="sub-title">
+        <h3 class="sub-title__text">ピックアップEVENTS</h3>
       </div>
 
       <!-- feature-infoはこちら -->
@@ -207,7 +218,8 @@
         </a>
       </section>
 
-      <div class="sub-title">
+      <!-- sub-titleはこちら -->
+      <div id="org" class="sub-title">
         <h3 class="sub-title__text">学生団体</h3>
       </div>
 
@@ -268,17 +280,17 @@
             <h2 class="general-info__title" href="#">ドイツ文化研究会</h2>
           </div>
         </a>
-            <a class="linkcover" href="org-detail-基礎スキー部.html">
-              <div class="general-info">
-                <img
-                  class="general-info__icon"
-                  src="../assets/images/基礎スキー部-image1.jpg"
-                  alt="icon"
-                />
-                <p class="general-info__slogan">時代はスキーだ！！</p>
-                <h2 class="general-info__title" href="#">基礎スキー部</h2>
-              </div>
-            </a>
+        <a class="linkcover" href="org-detail-基礎スキー部.html">
+          <div class="general-info">
+            <img
+              class="general-info__icon"
+              src="../assets/images/基礎スキー部-image1.jpg"
+              alt="icon"
+            />
+            <p class="general-info__slogan">時代はスキーだ！！</p>
+            <h2 class="general-info__title" href="#">基礎スキー部</h2>
+          </div>
+        </a>
         <a class="linkcover" href="org-detail-自転車競技部.html">
           <div class="general-info">
             <img
@@ -292,49 +304,49 @@
         </a>
 
         <a class="linkcover" href="event-detail-stella1.html">
-            <div class="general-info">
-              <img
-                class="general-info__icon"
-                src="../assets/images/stella-logo.jpg"
-                alt="icon"
-              />
-              <p class="general-info__slogan">留学生が集う多文化交流ラウンジ</p>
-              <h2 class="general-info__title" href="#">Stella</h2>
-            </div>
-          </a>
-          <a class="linkcover" href="org-detail-iki.html">
-            <div class="general-info">
-              <img
-                class="general-info__icon"
-                src="../assets/images/iki-logo.jpg"
-                alt="icon"
-              />
-              <p class="general-info__slogan">名南生に驚きときっかけを</p>
-              <h2 class="general-info__title" href="#">iki</h2>
-            </div>
-          </a>
+          <div class="general-info">
+            <img
+              class="general-info__icon"
+              src="../assets/images/stella-logo.jpg"
+              alt="icon"
+            />
+            <p class="general-info__slogan">留学生が集う多文化交流ラウンジ</p>
+            <h2 class="general-info__title" href="#">Stella</h2>
+          </div>
+        </a>
+        <a class="linkcover" href="org-detail-iki.html">
+          <div class="general-info">
+            <img
+              class="general-info__icon"
+              src="../assets/images/iki-logo.jpg"
+              alt="icon"
+            />
+            <p class="general-info__slogan">名南生に驚きときっかけを</p>
+            <h2 class="general-info__title" href="#">iki</h2>
+          </div>
+        </a>
         <a class="linkcover" href="org-detail-nect.html">
-            <div class="general-info">
-              <img
-                class="general-info__icon"
-                src="../assets/images/nect-logo.jpg"
-                alt="icon"
-              />
-              <p class="general-info__slogan">環境と楽しいをcoNECT！</p>
-              <h2 class="general-info__title" href="#">NECT</h2>
-            </div>
-          </a>
-          <a class="linkcover" href="org-detail-fiwc.html">
-            <div class="general-info">
-              <img
-                class="general-info__icon"
-                src="../assets/images/fiwc-logo.jpg"
-                alt="icon"
-              />
-              <p class="general-info__slogan">ボランティアしたくね？海外。</p>
-              <h2 class="general-info__title" href="#">FIWC東海委員会</h2>
-            </div>
-          </a>
+          <div class="general-info">
+            <img
+              class="general-info__icon"
+              src="../assets/images/nect-logo.jpg"
+              alt="icon"
+            />
+            <p class="general-info__slogan">環境と楽しいをcoNECT！</p>
+            <h2 class="general-info__title" href="#">NECT</h2>
+          </div>
+        </a>
+        <a class="linkcover" href="org-detail-fiwc.html">
+          <div class="general-info">
+            <img
+              class="general-info__icon"
+              src="../assets/images/fiwc-logo.jpg"
+              alt="icon"
+            />
+            <p class="general-info__slogan">ボランティアしたくね？海外。</p>
+            <h2 class="general-info__title" href="#">FIWC東海委員会</h2>
+          </div>
+        </a>
 
         <a class="linkcover" href="org-detail-mocchy.html">
           <div class="general-info">
@@ -352,7 +364,10 @@
       <!-- see-genreはこちら -->
       <a class="see-genre" href="org-list.html">一覧を見る </a>
 
-      <div class="sub-title">
+
+
+      <!-- sub-titleはこちら -->
+      <div id="event" class="sub-title">
         <h3 class="sub-title__text">イベント</h3>
       </div>
 
@@ -397,7 +412,8 @@
       <!-- see-genreはこちら -->
       <a class="see-genre" href="event-list.html">一覧を見る</a>
 
-      <div class="sub-title">
+      <!-- sub-titleはこちら -->
+      <div id="freepaper" class="sub-title">
         <h3 class="sub-title__text">フリーペーパー</h3>
       </div>
 

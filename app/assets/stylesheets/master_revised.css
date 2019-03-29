@@ -59,7 +59,7 @@ html {
   --border-radius-big: 1rem;
 
   /* 常に上にあるやつ（top bar）の高さ */
-  --header-height: 2.5rem;
+  --header-height: calc(2.5rem + 25px);
   /* open-visualの高さ */
   --open-visual-height: 35vh;
 
@@ -120,7 +120,7 @@ body.no-scroll {
 .header {
   display: grid;
   grid-template-columns: 3rem 1fr 3rem;
-  grid-template-rows: var(--header-height) 1fr;
+  grid-template-rows: 2.5rem 1fr;
   grid-template-areas:
     "arrow title icon"
     "nav nav nav";
@@ -128,7 +128,7 @@ body.no-scroll {
   top: 0;
   left: 0;
   width: 100vw;
-  height: var(--header-height);
+  height: 2.5rem;
   overflow-y: hidden;
   transition: height 0.3s;
   z-index: 100;
@@ -224,6 +224,7 @@ footer {
   background-color: var(--theme-color);
   width: 100vw;
   height: var(--header-height);
+  margin-top: 3rem;
 }
 
 .footer__logo {
